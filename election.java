@@ -36,6 +36,11 @@ public class election {
     emmapercent = ((double)emmatotal/(double)total);
     ellpercent = ((double)elltotal/(double)total);
 
-    System.out.println(emmapercent);
+    System.out.println("Candidate\t\tVotes\tPercentage");
+    System.out.println("Emma\t\t\t"+ emmatotal + "\t" + emmapercent + "%");
+    System.out.println("Ellery\t\t\t"+ elltotal + "\t" + ellpercent + "%");
+    System.out.println("TOTAL VOTES:\t\t"+ total);
+
+
     }
 }
